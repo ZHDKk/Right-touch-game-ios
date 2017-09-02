@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0385BB41F5A52DF0053F2F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385BB31F5A52DF0053F2F7 /* main.m */; };
+		F0385BB71F5A52DF0053F2F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385BB61F5A52DF0053F2F7 /* AppDelegate.m */; };
+		F0385BBA1F5A52DF0053F2F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385BB91F5A52DF0053F2F7 /* ViewController.m */; };
+		F0385BBD1F5A52DF0053F2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0385BBB1F5A52DF0053F2F7 /* Main.storyboard */; };
+		F0385BBF1F5A52DF0053F2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0385BBE1F5A52DF0053F2F7 /* Assets.xcassets */; };
+		F0385BC21F5A52DF0053F2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0385BC01F5A52DF0053F2F7 /* LaunchScreen.storyboard */; };
+		F0385BCD1F5A52DF0053F2F7 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385BCC1F5A52DF0053F2F7 /* _____Tests.m */; };
+		F0385BD81F5A52DF0053F2F7 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385BD71F5A52DF0053F2F7 /* _____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0385BC91F5A52DF0053F2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0385BA71F5A52DF0053F2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0385BAE1F5A52DF0053F2F7;
+			remoteInfo = "对对碰游戏";
+		};
+		F0385BD41F5A52DF0053F2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0385BA71F5A52DF0053F2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0385BAE1F5A52DF0053F2F7;
+			remoteInfo = "对对碰游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0385BAF1F5A52DF0053F2F7 /* 对对碰游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "对对碰游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0385BB31F5A52DF0053F2F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0385BB51F5A52DF0053F2F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0385BB61F5A52DF0053F2F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0385BB81F5A52DF0053F2F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0385BB91F5A52DF0053F2F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0385BBC1F5A52DF0053F2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0385BBE1F5A52DF0053F2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0385BC11F5A52DF0053F2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0385BC31F5A52DF0053F2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0385BC81F5A52DF0053F2F7 /* 对对碰游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "对对碰游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0385BCC1F5A52DF0053F2F7 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		F0385BCE1F5A52DF0053F2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0385BD31F5A52DF0053F2F7 /* 对对碰游戏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "对对碰游戏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0385BD71F5A52DF0053F2F7 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		F0385BD91F5A52DF0053F2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0385BAC1F5A52DF0053F2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0385BC51F5A52DF0053F2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0385BD01F5A52DF0053F2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0385BA61F5A52DF0053F2F7 = {
+			isa = PBXGroup;
+			children = (
+				F0385BB11F5A52DF0053F2F7 /* 对对碰游戏 */,
+				F0385BCB1F5A52DF0053F2F7 /* 对对碰游戏Tests */,
+				F0385BD61F5A52DF0053F2F7 /* 对对碰游戏UITests */,
+				F0385BB01F5A52DF0053F2F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0385BB01F5A52DF0053F2F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0385BAF1F5A52DF0053F2F7 /* 对对碰游戏.app */,
+				F0385BC81F5A52DF0053F2F7 /* 对对碰游戏Tests.xctest */,
+				F0385BD31F5A52DF0053F2F7 /* 对对碰游戏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0385BB11F5A52DF0053F2F7 /* 对对碰游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				F0385BB51F5A52DF0053F2F7 /* AppDelegate.h */,
+				F0385BB61F5A52DF0053F2F7 /* AppDelegate.m */,
+				F0385BB81F5A52DF0053F2F7 /* ViewController.h */,
+				F0385BB91F5A52DF0053F2F7 /* ViewController.m */,
+				F0385BBB1F5A52DF0053F2F7 /* Main.storyboard */,
+				F0385BBE1F5A52DF0053F2F7 /* Assets.xcassets */,
+				F0385BC01F5A52DF0053F2F7 /* LaunchScreen.storyboard */,
+				F0385BC31F5A52DF0053F2F7 /* Info.plist */,
+				F0385BB21F5A52DF0053F2F7 /* Supporting Files */,
+			);
+			path = "对对碰游戏";
+			sourceTree = "<group>";
+		};
+		F0385BB21F5A52DF0053F2F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0385BB31F5A52DF0053F2F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0385BCB1F5A52DF0053F2F7 /* 对对碰游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0385BCC1F5A52DF0053F2F7 /* _____Tests.m */,
+				F0385BCE1F5A52DF0053F2F7 /* Info.plist */,
+			);
+			path = "对对碰游戏Tests";
+			sourceTree = "<group>";
+		};
+		F0385BD61F5A52DF0053F2F7 /* 对对碰游戏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0385BD71F5A52DF0053F2F7 /* _____UITests.m */,
+				F0385BD91F5A52DF0053F2F7 /* Info.plist */,
+			);
+			path = "对对碰游戏UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0385BAE1F5A52DF0053F2F7 /* 对对碰游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0385BDC1F5A52DF0053F2F7 /* Build configuration list for PBXNativeTarget "对对碰游戏" */;
+			buildPhases = (
+				F0385BAB1F5A52DF0053F2F7 /* Sources */,
+				F0385BAC1F5A52DF0053F2F7 /* Frameworks */,
+				F0385BAD1F5A52DF0053F2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "对对碰游戏";
+			productName = "对对碰游戏";
+			productReference = F0385BAF1F5A52DF0053F2F7 /* 对对碰游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0385BC71F5A52DF0053F2F7 /* 对对碰游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0385BDF1F5A52DF0053F2F7 /* Build configuration list for PBXNativeTarget "对对碰游戏Tests" */;
+			buildPhases = (
+				F0385BC41F5A52DF0053F2F7 /* Sources */,
+				F0385BC51F5A52DF0053F2F7 /* Frameworks */,
+				F0385BC61F5A52DF0053F2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0385BCA1F5A52DF0053F2F7 /* PBXTargetDependency */,
+			);
+			name = "对对碰游戏Tests";
+			productName = "对对碰游戏Tests";
+			productReference = F0385BC81F5A52DF0053F2F7 /* 对对碰游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0385BD21F5A52DF0053F2F7 /* 对对碰游戏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0385BE21F5A52DF0053F2F7 /* Build configuration list for PBXNativeTarget "对对碰游戏UITests" */;
+			buildPhases = (
+				F0385BCF1F5A52DF0053F2F7 /* Sources */,
+				F0385BD01F5A52DF0053F2F7 /* Frameworks */,
+				F0385BD11F5A52DF0053F2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0385BD51F5A52DF0053F2F7 /* PBXTargetDependency */,
+			);
+			name = "对对碰游戏UITests";
+			productName = "对对碰游戏UITests";
+			productReference = F0385BD31F5A52DF0053F2F7 /* 对对碰游戏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0385BA71F5A52DF0053F2F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zh dk";
+				TargetAttributes = {
+					F0385BAE1F5A52DF0053F2F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F0385BC71F5A52DF0053F2F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0385BAE1F5A52DF0053F2F7;
+					};
+					F0385BD21F5A52DF0053F2F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0385BAE1F5A52DF0053F2F7;
+					};
+				};
+			};
+			buildConfigurationList = F0385BAA1F5A52DF0053F2F7 /* Build configuration list for PBXProject "对对碰游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0385BA61F5A52DF0053F2F7;
+			productRefGroup = F0385BB01F5A52DF0053F2F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0385BAE1F5A52DF0053F2F7 /* 对对碰游戏 */,
+				F0385BC71F5A52DF0053F2F7 /* 对对碰游戏Tests */,
+				F0385BD21F5A52DF0053F2F7 /* 对对碰游戏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0385BAD1F5A52DF0053F2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0385BC21F5A52DF0053F2F7 /* LaunchScreen.storyboard in Resources */,
+				F0385BBF1F5A52DF0053F2F7 /* Assets.xcassets in Resources */,
+				F0385BBD1F5A52DF0053F2F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0385BC61F5A52DF0053F2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0385BD11F5A52DF0053F2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0385BAB1F5A52DF0053F2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0385BBA1F5A52DF0053F2F7 /* ViewController.m in Sources */,
+				F0385BB71F5A52DF0053F2F7 /* AppDelegate.m in Sources */,
+				F0385BB41F5A52DF0053F2F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0385BC41F5A52DF0053F2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0385BCD1F5A52DF0053F2F7 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0385BCF1F5A52DF0053F2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0385BD81F5A52DF0053F2F7 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0385BCA1F5A52DF0053F2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0385BAE1F5A52DF0053F2F7 /* 对对碰游戏 */;
+			targetProxy = F0385BC91F5A52DF0053F2F7 /* PBXContainerItemProxy */;
+		};
+		F0385BD51F5A52DF0053F2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0385BAE1F5A52DF0053F2F7 /* 对对碰游戏 */;
+			targetProxy = F0385BD41F5A52DF0053F2F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0385BBB1F5A52DF0053F2F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0385BBC1F5A52DF0053F2F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0385BC01F5A52DF0053F2F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0385BC11F5A52DF0053F2F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0385BDA1F5A52DF0053F2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0385BDB1F5A52DF0053F2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0385BDD1F5A52DF0053F2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "对对碰游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0385BDE1F5A52DF0053F2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "对对碰游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0385BE01F5A52DF0053F2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "对对碰游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/对对碰游戏.app/对对碰游戏";
+			};
+			name = Debug;
+		};
+		F0385BE11F5A52DF0053F2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "对对碰游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/对对碰游戏.app/对对碰游戏";
+			};
+			name = Release;
+		};
+		F0385BE31F5A52DF0053F2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "对对碰游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "对对碰游戏";
+			};
+			name = Debug;
+		};
+		F0385BE41F5A52DF0053F2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "对对碰游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "对对碰游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0385BAA1F5A52DF0053F2F7 /* Build configuration list for PBXProject "对对碰游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0385BDA1F5A52DF0053F2F7 /* Debug */,
+				F0385BDB1F5A52DF0053F2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0385BDC1F5A52DF0053F2F7 /* Build configuration list for PBXNativeTarget "对对碰游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0385BDD1F5A52DF0053F2F7 /* Debug */,
+				F0385BDE1F5A52DF0053F2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0385BDF1F5A52DF0053F2F7 /* Build configuration list for PBXNativeTarget "对对碰游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0385BE01F5A52DF0053F2F7 /* Debug */,
+				F0385BE11F5A52DF0053F2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0385BE21F5A52DF0053F2F7 /* Build configuration list for PBXNativeTarget "对对碰游戏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0385BE31F5A52DF0053F2F7 /* Debug */,
+				F0385BE41F5A52DF0053F2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0385BA71F5A52DF0053F2F7 /* Project object */;
+}
