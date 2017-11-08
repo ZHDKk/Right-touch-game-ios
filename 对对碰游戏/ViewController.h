@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    UIButton *btn;
+    UIImage *image;
+    NSTimer *timer;
+}
 
 @end
 
